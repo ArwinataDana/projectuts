@@ -1,34 +1,64 @@
-.th1{
-    background-color: rgb(50, 14, 215);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.th2{
-    background-color: rgb(50, 14, 215);
+
+body{
+    background-image: url(images/sand-dunes-pink-5120x2880-21844.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
 }
-.th3{
-    background-color: rgb(50, 14, 215);
-}
-.tbody1{
-    background-color: rgb(239, 230, 230);
-}
-#body1{
-    background-color: hsla(213, 24%, 39%, 0.808);
+.th1, .th2, .th3 {
+    background-color: rgb(247, 227, 201);
 }
 nav{
-    background-color:none;
-    width: fit-content;
-    padding: 10px 20px;
+    background-color:transparent;
+    width: 100%;
+    padding: 15px 30px;
     margin: 0 auto;
     font-size: 20px;
+    border-radius: 8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-#body2{
-    background-color: hsla(213, 24%, 39%, 0.808);
+nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
-#body3{
-    background-color: hsla(213, 24%, 39%, 0.808);
+
+nav a:hover {
+    color:white; 
+    transform: scale(1.1); 
 }
-#body4{
-    background-color: hsla(213, 24%, 39%, 0.808);
+@media (max-width:800px){
+    nav{
+        font-size: 16px;
+        gap: 20px;
+        padding: 10px;
+    }
 }
-a:hover{
-   color:white;
+nav a{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+@media (max-width:1439px){
+    nav{
+        font-size: 16px;
+        gap: 20px;
+        padding: 10px;
+    }
+nav a{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
 }
