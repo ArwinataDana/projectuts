@@ -14,7 +14,7 @@
     background-color: hsla(213, 24%, 39%, 0.808);
 }
 nav{
-    background-color: hsla(213, 24%, 39%, 0.808);
+    background-color:none;
     width: fit-content;
     padding: 10px 20px;
     margin: 0 auto;
@@ -30,5 +30,5 @@ nav{
     background-color: hsla(213, 24%, 39%, 0.808);
 }
 a:hover{
-   color: white;
+   color:white;
 }
