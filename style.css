@@ -1,0 +1,9 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image:url(images/lake-6260668_640.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 105vh;
+}
