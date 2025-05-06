@@ -10,7 +10,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    height: 100vh;
 }
 .th1, .th2, .th3 {
     background-color: rgb(247, 227, 201);
