@@ -38,17 +38,9 @@ nav a:hover {
     color:white; 
     transform: scale(1.1); 
 }
-@media (max-width:800px){
-    nav{
-        font-size: 16px;
-        gap: 20px;
-        padding: 10px;
-    }
-}
 nav a{
     display: block;
     text-align: center;
-    width: 100%;
 }
 @media (max-width:1439px){
     nav{
@@ -61,4 +53,38 @@ nav a{
     text-align: center;
     width: 100%;
 }
+}
+a[href*="drive.google.com"] {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: black;
+    background-color:transparent;
+    border: 2px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a[href*="drive.google.com"]:hover {
+
+    transform: scale(1.05);
+}
+a.tautan {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+a.tautan:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+a.tautan:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
 }
