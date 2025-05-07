@@ -65,10 +65,10 @@ a[href*="drive.google.com"] {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
 a[href*="drive.google.com"]:hover {
 
     transform: scale(1.05);
+    color: white;
 }
 a.tautan {
     display: inline-block;
@@ -82,6 +82,7 @@ a.tautan {
 a.tautan:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+    color: white;
 }
 a.tautan:active {
     transform: scale(0.95);
