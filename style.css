@@ -58,16 +58,14 @@ a[href*="drive.google.com"] {
     padding: 15px 30px;
     font-size: 18px;
     color: black;
-    background-color:transparent;
-    border: 2px;
     border-radius: 8px;
     text-decoration: none;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 a[href*="drive.google.com"]:hover {
 
     transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
     color: white;
 }
 a.tautan {
